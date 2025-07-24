@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Signal Sensei • Read the Signal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Space+Mono&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Unbounded', sans-serif;
+      background: #0a0a0a;
+      color: #e5e5e5;
+    }
+    .glow-border {
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: 0 0 20px rgba(0, 255, 128, 0.1);
+    }
+    .terminal-text {
+      font-family: 'Space Mono', monospace;
+      color: #9ae6b4;
+    }
+    .gradient {
+      background: linear-gradient(to right, #38f9d7, #43e97b);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+<body class="overflow-x-hidden">
+
+<!-- Hero -->
+<section class="min-h-screen flex flex-col items-center justify-center text-center px-6">
+  <h1 class="text-5xl md:text-6xl font-bold gradient mb-4 tracking-tight">Signal Sensei</h1>
+  <p class="text-gray-400 text-lg md:text-xl max-w-xl mb-8">
+    Read the signal. Strike with precision. Tools for market samurai, intelligence agents, and creative tacticians.
+  </p>
+  <a href="#store" class="bg-green-400 hover:bg-green-500 text-black px-6 py-3 rounded-lg font-mono text-sm uppercase tracking-wide transition">Enter Store</a>
+</section>
+
+<!-- Products -->
+<section id="store" class="py-20 px-6 max-w-6xl mx-auto">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+
+    <!-- Asset 1 -->
+    <div class="bg-[#111] p-6 rounded-xl glow-border hover:scale-105 transition">
+      <h2 class="text-xl font-semibold mb-2">📊 Macro Decks</h2>
+      <p class="text-sm text-slate-400 mb-3">High signal economic & trend overviews to shape sovereign strategy. Updated monthly.</p>
+      <span class="terminal-text">$15 / drop</span>
+    </div>
+
+    <!-- Asset 2 -->
+    <div class="bg-[#111] p-6 rounded-xl glow-border hover:scale-105 transition">
+      <h2 class="text-xl font-semibold mb-2">🤖 GPT Trading Prompts</h2>
+      <p class="text-sm text-slate-400 mb-3">Unlock real-time market pattern detection with tuned GPT-4 prompts + scripts.</p>
+      <span class="terminal-text">$12 / pack</span>
+    </div>
+
+    <!-- Asset 3 -->
+    <div class="bg-[#111] p-6 rounded-xl glow-border hover:scale-105 transition">
+      <h2 class="text-xl font-semibold mb-2">🧠 Mental Model Index</h2>
+      <p class="text-sm text-slate-400 mb-3">50+ sovereign thinking models inspired by signal decoding, deception detection, and creative synthesis.</p>
+      <span class="terminal-text">$19 / PDF</span>
+    </div>
+
+  </div>
+
+  <!-- CTA -->
+  <div class="mt-16 text-center">
+    <a href="mailto:signal@kxros.io" class="text-green-300 underline text-sm font-mono hover:text-green-400">Custom signals? Collab? Ping the operator.</a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-xs text-slate-500 text-center mt-24 py-10 border-t border-slate-800">
+  &copy; 2025 Signal Sensei • Operated by <a href="https://kxros.io" class="underline hover:text-green-400">KXROS</a>
+</footer>
+
+</body>
+</html>
